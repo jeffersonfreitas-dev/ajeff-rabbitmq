@@ -1,4 +1,4 @@
-package dev.jefferson.estoquepreco.connections;
+package dev.jefferson.rabbitmqclients.constants;
 
 public class RabbitMQConstants {
 	public static final String FILA_ESTOQUE = "ESTOQUE";

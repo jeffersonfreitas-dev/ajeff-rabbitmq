@@ -1,4 +1,4 @@
-package dev.jefferson.estoquepreco.dto;
+package dev.jefferson.rabbitmqclients.dto;
 
 import java.io.Serializable;
 
@@ -9,10 +9,10 @@ import lombok.NoArgsConstructor;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class EstoqueDTO implements Serializable{
+public class PrecoDTO implements Serializable{
 	private static final long serialVersionUID = 1L;
 	
 	private String codigoProduto;
-	private String quantidade;
+	private Double preco;
 
 }
